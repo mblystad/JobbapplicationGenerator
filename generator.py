@@ -1,5 +1,3 @@
-
-# finnjobb2024@gmail.com : AIzaSyCHkNrpAhXxt4QrRe23mdLLUXstpkUjulc
 import customtkinter as ctk
 from tkinter import messagebox, filedialog
 from PIL import Image, ImageTk
@@ -17,7 +15,7 @@ ctk.set_appearance_mode("light")
 ctk.set_default_color_theme("blue")
 
 # Google Generative AI API key setup
-API_KEY = "AIzaSyCHkNrpAhXxt4QrRe23mdLLUXstpkUjulc"
+API_KEY = "YOUR API KEY HERE"
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel("gemini-1.5-flash")
 
